@@ -1,8 +1,43 @@
 # Python-Projects
-a collection of projects built as a way to develop my programming skills related to the finance and economic fields. 
-all projects have been built with Python. 
-Related libraries: yfinance, Matplotlib, pandas
 
-below a list of projects with a short description of each:
-## 1. Stock portfolio tracker
-My first project, is a simple code that takes live stock prices from Yahoo Finance and   computes various metrics such as: current value, gain/loss of the position, percentage returns. Lastly, it displays results as a table and a bar chart. 
+A collection of projects built as a way to develop my programming skills in the finance and economics fields. All projects have been built with Python.
+
+**Libraries used:** `yfinance`, `pandas`, `numpy`, `scipy`, `matplotlib`, `openpyxl`, `PyPortfolioOpt`
+
+Below is a list of the projects, with a short description of each:
+
+## [1. Stock portfolio tracker](portfolio_tracker/)
+
+My first project: a simple script that takes live stock prices from Yahoo Finance and computes various metrics such as current value, gain/loss of the position and percentage returns. Lastly, it displays the results as a table and a bar chart.
+
+
+
+## 2. [Comparable company analysis](comparable_company_analysis/)
+
+A tool that pulls real-time financial data for a set of peer companies, computes trading multiples (EV/EBITDA, P/E and P/B) and builds a comps table. It then applies the peer median multiples to a target company to obtain implied share prices, and exports everything to a two-sheet Excel file.
+
+
+
+## 3. [DCF valuation engine](dcf_valuation/)
+
+A discounted cash flow valuation for a list of stocks. For each company it fetches live financial data, computes the WACC, projected free cash flows, terminal value and implied share price, and generates a sensitivity table across different growth and discount rates. Results are saved in an Excel workbook with one sheet per company.
+
+
+
+## 4. [Mean-variance portfolio optimizer](efficient_frontier/)
+
+An implementation of Markowitz portfolio optimization with `numpy` and `scipy`. It maximizes the Sharpe ratio, plots the efficient frontier by minimizing variance across a range of target returns, and validates the results against the `PyPortfolioOpt` library.
+
+
+
+## 5. [GDP and life expectancy analysis](gdp_life_expectancy/)
+
+An analysis of the Gapminder dataset. It computes the population-weighted GDP per capita over time, worldwide and by continent, and the correlation between life expectancy and GDP per capita for each country, with scatter plots for the countries with the lowest and highest correlations.
+
+
+
+## 6. [S&P 500 implied volatility plots](sp500_implied_vol/)
+
+A script that visualizes S&P 500 option data, plotting implied volatility against strike for two Fridays in September (2018 and 2017), with one plot for each `T` value to show how the shape of the implied volatility changes.
+
+
