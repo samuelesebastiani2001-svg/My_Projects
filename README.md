@@ -8,13 +8,13 @@ Below is a list of the projects, with a short description of each:
 
 ## [1. Stock portfolio tracker](portfolio_tracker/)
 
-My first project: a simple script that takes live stock prices from Yahoo Finance and computes various metrics such as current value, gain/loss of the position and percentage returns. Lastly, it displays the results as a table and a bar chart.
+A simple script that takes live stock prices from Yahoo Finance and computes various metrics such as current value, gain/loss of the position and percentage returns. Lastly, it displays the results as a table and a bar chart.
 
 
 
 ## 2. [Comparable company analysis](comparable_company_analysis/)
 
-A tool that pulls real-time financial data for a set of peer companies, computes trading multiples (EV/EBITDA, P/E and P/B) and builds a comps table. It then applies the peer median multiples to a target company to obtain implied share prices, and exports everything to a two-sheet Excel file.
+A tool that pulls real-time financial data for a set of companies, computes trading multiples (EV/EBITDA, P/E and P/B) and builds a comparable table between firms. It then applies the median multiples to a target company to obtain implied share prices, and exports everything to a two-sheet Excel file.
 
 
 
@@ -32,7 +32,7 @@ An implementation of Markowitz portfolio optimization with `numpy` and `scipy`. 
 
 ## 5. [GDP and life expectancy analysis](gdp_life_expectancy/)
 
-An analysis of the Gapminder dataset. It computes the population-weighted GDP per capita over time, worldwide and by continent, and the correlation between life expectancy and GDP per capita for each country, with scatter plots for the countries with the lowest and highest correlations.
+It computes the population-weighted GDP per capita over time, worldwide and by continent, and the correlation between life expectancy and GDP per capita for each country, with scatter plots for the countries with the lowest and highest correlations.
 
 
 
