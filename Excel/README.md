@@ -1,5 +1,11 @@
-   # Excel projects
+# Excel-Projects
 
-   Spreadsheets built to develop my skills in finance and economics.
+A collection of Excel models built to develop my spreadsheet skills in finance, banking, financial markets and macroeconomic analysis. Every model is built with formulas only (no macros or VBA), so every number can be traced back to its inputs.
 
-WORK IN PROGRESS
+**Excel skills used:** financial functions (`PMT`), lookups and aggregation (`SUMIFS`), logical functions (`IF`, `MIN`, `MAX`), date functions (`EDATE`, `YEAR`), named ranges, data validation, freeze panes and charts
+
+Below is a list of the projects, with a short description of each:
+
+## 1. [Loan & mortgage amortization model](loan_amortization/)
+
+A model that builds a full amortization schedule for any fixed-rate loan or mortgage, based on the loan amount, interest rate, term, payment frequency and start date. It compares results with and without an extra payment per period (total interest, payoff date and time saved), and summarizes interest and principal paid in each calendar year, with charts.
