@@ -4,7 +4,7 @@ Two empirical econometrics projects completed during my master's degree in Appli
 
 ## 1. [Time Series Econometrics – Group project](group8.pdf)
 
-*Group project (5 members)*
+*Group project*
 
 An analysis of the long-run relationship between public consumption prices and two cost drivers, using quarterly data: the value-added deflator adjusted for indirect taxes, and hourly labour costs. The project covers:
 
@@ -15,7 +15,7 @@ An analysis of the long-run relationship between public consumption prices and t
 
 ## 2. [Econometrics of Financial Markets – Empirical exam](Sebastiani_Samuele.pdf)
 
-*Individual project, October 2025 · built in Gretl*
+*Individual project, October 2025*
 
 Three exercises on volatility and shock propagation in financial and macroeconomic data:
 
