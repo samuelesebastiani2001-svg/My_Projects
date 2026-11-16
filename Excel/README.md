@@ -2,7 +2,6 @@
 
 A collection of Excel models built to develop my spreadsheet skills in finance, banking, financial markets and macroeconomic analysis. Every model is built with formulas only (no macros or VBA), so every number can be traced back to its inputs.
 
-**Excel skills used:** financial functions (`PMT`), lookups and aggregation (`SUMIFS`), logical functions (`IF`, `MIN`, `MAX`), date functions (`EDATE`, `YEAR`), named ranges, data validation, freeze panes and charts
 
 Below is a list of the projects, with a short description of each:
 
