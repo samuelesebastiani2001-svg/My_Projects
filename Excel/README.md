@@ -1,4 +1,4 @@
-# Excel-Projects
+# Excel-Projects (Work in Progress)
 
 A collection of Excel models built to develop my spreadsheet skills in finance, banking, financial markets and macroeconomic analysis. Every model is built with formulas only (no macros or VBA), so every number can be traced back to its inputs.
 
