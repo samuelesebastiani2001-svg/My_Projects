@@ -16,3 +16,7 @@ A model of a bank's equity trading book, built on real FTSE MIB prices from Yaho
 ## 3. [Bond pricing & yield curve](Bond%20Curve/)
 
 A fixed-income model that prices government bonds and measures their interest-rate risk. A bond calculator works out clean and dirty price, accrued interest, yield to maturity, duration, convexity and DV01, and checks every result against a full cash-flow table. A yield curve from 1 to 30 years gives the slope and shape of the market. A small portfolio is priced off that curve by linear interpolation, and a parallel rate-shock scenario compares the exact P&L with the duration estimate to show the effect of convexity.
+
+## 4. [Treasury & hedging desk](Treasury%20and%20hedging%20desk/)
+
+A model of a corporate trading desk that hedges currency and energy risk with OTC contracts. It monitors equities, rates, FX and commodities, records FX forwards and commodity swaps with their confirmation status, prices forwards from interest rate parity, marks every open position to market, calculates rollovers, and reports open risk, maturities and MTM on a dashboard.
