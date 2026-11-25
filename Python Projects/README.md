@@ -22,7 +22,7 @@ A discounted cash flow valuation for a list of stocks. For each company it fetch
 
 An implementation of Markowitz portfolio optimization with `numpy` and `scipy`. It maximizes the Sharpe ratio, plots the efficient frontier by minimizing variance across a range of target returns, and validates the results against the `PyPortfolioOpt` library.
 
-## 5. [GDP and life expectancy analysis](GDP_research/)
+## 5. [GDP and life expectancy analysis](GDP_Research/)
 
 It computes the population-weighted GDP per capita over time, worldwide and by continent, and the correlation between life expectancy and GDP per capita for each country, with scatter plots for the countries with the lowest and highest correlations.
 
