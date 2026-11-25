@@ -20,3 +20,6 @@ A fixed-income model that prices government bonds and measures their interest-ra
 ## 4. [Treasury & hedging desk](Treasury%20and%20hedging%20desk/)
 
 A model of a corporate trading desk that hedges currency and energy risk with OTC contracts. It monitors equities, rates, FX and commodities, records FX forwards and commodity swaps with their confirmation status, prices forwards from interest rate parity, marks every open position to market, calculates rollovers, and reports open risk, maturities and MTM on a dashboard.
+
+
+## 5. [DCF Valuation](DCF%20Valuation/): five-year unlevered FCF model on real AAPL data, with CAPM-based WACC, Gordon terminal value, the bridge from enterprise value to share price and a WACC × g sensitivity table.
