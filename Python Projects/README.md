@@ -18,14 +18,14 @@ A tool that pulls real-time financial data for a set of companies, computes trad
 
 A discounted cash flow valuation for a list of stocks. For each company it fetches live financial data, computes the WACC, projected free cash flows, terminal value and implied share price, and generates a sensitivity table across different growth and discount rates. Results are saved in an Excel workbook with one sheet per company.
 
-## 4. [Mean-variance portfolio optimizer](portfolio_optimizer/)
+## 4. [Mean-variance portfolio optimizer](Portfolio_Optimizer/)
 
 An implementation of Markowitz portfolio optimization with `numpy` and `scipy`. It maximizes the Sharpe ratio, plots the efficient frontier by minimizing variance across a range of target returns, and validates the results against the `PyPortfolioOpt` library.
 
-## 5. [GDP and life expectancy analysis](gdp_research/)
+## 5. [GDP and life expectancy analysis](GDP_research/)
 
 It computes the population-weighted GDP per capita over time, worldwide and by continent, and the correlation between life expectancy and GDP per capita for each country, with scatter plots for the countries with the lowest and highest correlations.
 
-## 6. [S&P 500 implied volatility plots](sp500/)
+## 6. [S&P 500 implied volatility plots](SP500/)
 
 A script that visualizes S&P 500 option data, plotting implied volatility against strike for two Fridays in September (2018 and 2017), with one plot for each `T` value to show how the shape of the implied volatility changes.
