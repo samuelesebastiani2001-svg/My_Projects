@@ -1,4 +1,4 @@
-# Excel-Projects (Work in Progress)
+# Excel-Projects
 
 A collection of Excel models built to develop my spreadsheet skills in finance, banking, financial markets and macroeconomic analysis. Every model is built with formulas only (no macros or VBA), so every number can be traced back to its inputs.
 
@@ -25,3 +25,7 @@ A model of a corporate trading desk that hedges currency and energy risk with OT
 ## 5. [DCF Valuation](DCF%20Valuation/) 
 
 five-year unlevered FCF model on real AAPL data, with CAPM-based WACC, Gordon terminal value, the bridge from enterprise value to share price and a WACC × g sensitivity table.
+
+## 6. [Euro-area macro dashboard](MacroData%20Dashboard/): 
+
+interactive dashboard on Eurostat/ECB data for Italy, Germany, France, Spain and the euro area, with Okun's law regressions and a Taylor rule for the ECB.
